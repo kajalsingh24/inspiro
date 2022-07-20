@@ -1,0 +1,404 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ font-family: 'Roboto', sans-serif;
+}
+/* --------------------commonclass----------------- */
+.commonpadding
+{
+  padding: 40px 0px;
+}
+.container-fluid
+{
+  padding: 0;
+}
+/* --------------------start topheader section----------- */
+header{
+  position:absolute;
+  z-index: 1;
+  width: 100%;
+}
+.dropdown-menu
+{
+  background-color: black;
+  border-top: 4px solid #0bb4aa;
+}
+.navbar-toggler-icon
+{
+color:deeppink;
+}
+.topheader a
+{
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 20px;
+  /* z-index: 2; */
+}
+.topheader a:hover{
+  color: red;
+}
+.background_video
+{
+   position: relative; 
+}
+.background_video video
+{
+  width:100%;
+   /* position:absolute;  */
+  top: 0px;
+  left: 0px;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1; 
+  /* height: 100vh; */
+}
+.background_content 
+{
+  position: relative;
+
+}
+.background_content 
+{
+  transform: translate(-50%,-50%);
+  top:50%;
+  left:50%;
+  position: absolute;
+  color: white;
+  justify-content: center;
+  text-align: center;
+}
+.background_content h1{
+  font-size: 80px;
+}
+.background_content hr{
+  background-color:white;
+  width: 20%;
+  margin: auto;
+
+}
+.background_content p{
+  margin-top: 20px;
+  font-size: 20px;
+}
+.background_content a{
+  padding: 8px 15px;
+  color: white;
+  text-decoration: none;
+  border: 1px solid white;
+  margin-top: 15px;
+  font-weight: bold;
+}
+/* -------------------------------------location in london------------------------- */
+.creative
+{
+  text-align: center;
+  justify-content: center;
+}
+.creative h2
+{
+  font-weight: bold;
+}
+.creative p{
+  margin-top: 30px;
+  /* font-weight: 700; */
+}
+.creative a{
+  padding: 7px 25px;
+  color:black;
+  display: inline;
+  border: 1px solid black;
+  text-decoration: none;
+}
+/* -------------------------------our servvice----------------------------------- */
+.service
+{
+ background-color: whitesmoke; 
+}
+.service h2{
+  text-align: center;
+}
+
+.serviceimage
+{
+  width: 100%;
+  margin-top: 50px;
+  position: relative;
+}
+.serviceimage img
+{
+  width: 100%; 
+}
+.servicetext
+{
+  text-align: center;
+transform: translate(-0%,-120%);
+position:absolute;
+font-size: 12px;  
+  color: white;
+}
+.servicetext dd{
+  font-size: 25px;
+  font-weight: bold;
+}
+.servicetext p
+{
+padding: 0px 30px;
+font-size: 15px;
+}
+.servicetext a{
+  padding: 7px 15px;
+  border: 1px solid white;
+  color:white;
+  display: inline-block;
+  margin-top: 15px;
+  font-weight: bold;
+  text-decoration: none;
+}
+/* -------------------------------------galley------------------------- */
+.galley 
+{
+  background-color: black;
+}
+.galley h2{
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+.galleyimg
+{
+  width: 100%;
+  margin-top: 30px;
+}
+.galleyimg img{
+  width: 100%;
+}
+.view a{
+  padding: 9px 15px;
+  border:  1px solid white;
+  display: inline-block;
+  margin-top:30px;
+  color: white;
+  font-weight: bold;
+}
+/* ---------------------------------our team----------------------------------- */
+.teamimg 
+{
+  width: 100%;
+  margin-top:40px;
+}
+.teamimg img{
+  width: 100%;
+}
+.teamimg h3
+{
+  font-weight: bold;
+  font-size: 26px;
+  margin-top: 20px;
+}
+.teamimg dd{
+  color:grey;
+}
+.teamimg a{
+  color: #0bb4aa;
+  font-size: 20px;
+  font-weight: bold;
+  
+}
+/* -------------------------------------whyus---------------------------------- */
+.whyus
+{
+  background-image: linear-gradient(rgba(5, 5, 7, 0.62),rgba( 5, 5, 7, 0.62)),
+   url(../images/background1img.jpeg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+ 
+}
+.whyus h2{
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+.whyusicon
+{
+  text-align: center;
+  margin-top: 20px;
+}
+.whyusicon i{
+  color:white;
+  font-size:40px;
+}
+.whyusicon a{
+  font-size: 20px;
+  color: white;
+  display: inline-block;
+  margin-top: 30px;
+  text-decoration: none;
+}
+.whyusicon p{
+  color:#FFFFFF8F;
+  font-weight: bold;
+  margin-top:30px;
+}
+/* ------------------------------------------blog------------------------------------- */
+.blog 
+{
+  background-color:whitesmoke;
+}
+.blog h2{
+  font-weight: bold;
+}
+.bolgtext img{
+  width: 100%;
+}
+.bolgtext{
+  width: 100%;
+  margin-top: 30px;
+}
+.blogtext_blog a
+{
+     margin-top: 30px;
+    font-weight: bold;
+    font-size: 40px;
+    display: inline-block; 
+}
+.bolgtext p{
+  margin-top: 30px;
+}
+.bolgtext a{
+  display: inline-block;
+  margin-top: 30px;
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
+.bolgbtn a{
+  display: inline-block;
+  margin-top: 30px;
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+  border:  1px solid grey;
+  padding: 9px 17px;
+}
+/* --------------------------------location----------------------------- */
+.locationtext
+{
+  text-align: center;
+}
+.locationtext h2
+{
+  font-weight: bold;
+  text-align: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+.locationtext dd{
+  margin-top: 30px; 
+}
+.location
+{
+  width: 100%;
+  margin-top: 30px;
+}
+.location .col-xl-3.col-lg-3.col-md-6.col-sm-6
+{
+  padding: 0;
+}
+.location .col-xl-12.col-lg-12.col-md-12.col-sm-12
+{
+  padding: 0;
+}
+/* -------------------------------------------viewimg------------------------- */
+.view img
+{
+  width:100%;
+}
+.view .col-xl-3.col-lg-3.col-md-6.col-sm-6
+{
+  padding: 0;
+}
+/* ------------------------------------------footer----------------------------- */
+.footersection
+{
+  background-color: black;
+}
+.about h4
+{
+color: white;
+margin-top: 10px;
+font-weight: bold;
+}
+.about p{
+  color: #444;
+  margin-top: 20px;
+}
+.addres h4{
+  color: white;
+  margin-top: 10px;
+  font-weight: bold;
+  }
+
+.addres li 
+{
+  list-style-type:none;
+  color: #444;
+  /* margin-top: 4px; */
+}
+.addres a{
+  color: #0bb4aa;
+  text-decoration: none;
+}
+.follw h4
+{
+  color: white;
+margin-top: 10px;
+font-weight: bold;
+}
+.follw dd{
+  color: #444;
+}
+.follw a{
+  text-decoration: none;
+  color:white;
+  font-size: 25px;
+  padding: 5px;
+  margin-top: 20px;
+}
+.footersection hr{
+  background-color:white;
+}
+/* ==========================================start portfolio=========================================================*/
+.portfolio
+{
+  padding: 50px 0;
+}
+.portfolio dd{
+  padding: 50px 0;
+}
+.portfolio ul{
+  text-align: center;
+  justify-content: center;
+  margin:30px 0px;
+ 
+}
+.portfolio li a{
+ margin-left: 30px;
+ color: black;
+ text-decoration: none;
+ font-size: 18px;
+}
+.portfolio h2{
+  font-weight: bold;
+}
+.portfolio-img img
+{
+  width: 100%;
+}
+/* ==========================================end portfolio=========================================================== */
+
+
+
